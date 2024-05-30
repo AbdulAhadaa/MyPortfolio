@@ -24,7 +24,7 @@ export const data=[
         id:3,
         name:"Portfolio Site",
         image:portfolio,
-        github:"",
+        github:"https://github.com/AbdulAhadaa/MyPortfolio",
         live:"/",
     },
     
