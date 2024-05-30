@@ -33,12 +33,12 @@ return (
 <span>{item.stack}</span>
 </div>
 <div className="pt-8 text-center">
-    <a href={item.live}>
+    <a href={item.live} target="_blank">
         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 fond-bold text-lg">
             Demo
         </button>
     </a>
-    <a href={item.github}>
+    <a href={item.github} target="_blank">
         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 fond-bold text-lg">
             Code
         </button>

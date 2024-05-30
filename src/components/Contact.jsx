@@ -14,12 +14,12 @@ const Contact = () => {
         <div className='mx-auto'>
         <ul className='flex  justify-center  '>
     <li className='w-[160px] h-[60px] flex justify-between items-center bg-blue-600 mb-4 '>
-      <a href="https://www.linkedin.com/in/abdul-ahad8" target='blank' className='flex justify-between items-center w-full text-gray-300'>
+      <a href="https://www.linkedin.com/in/abdul-ahad8" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
  Linkedin<FaLinkedin size={30}/>
       </a>
     </li>
     <li className='w-[160px] h-[60px] mx-4 flex justify-between items-center  bg-[#333333] mb-4'>
-      <a href="https://github.com/AbdulAhadaa" target='blank' className='flex justify-between items-center w-full text-gray-300'>
+      <a href="https://github.com/AbdulAhadaa" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
  Github<FaGithub size={30}/>
       </a>
     </li>
