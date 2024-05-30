@@ -50,11 +50,11 @@ const Navbar = () => {
 {/* mobile menu */}
 
 <ul className={!nav? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-between items-center}absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-between items-center'}>
-<li className='text-4xl py-6'>Home</li>
-    <li className='text-4xl py-6'>About</li>
-    <li className='text-4xl py-6'>Skills</li>
-    <li className='text-4xl py-6'>Work</li>
-    <li className='text-4xl py-6'>Contact</li>
+<li className='text-4xl py-6'><Link onClick={handlenav} smooth={true} duration={500} to='home'>Home</Link></li>
+    <li className='text-4xl py-6'><Link onClick={handlenav} smooth={true} duration={500} to='about'>About</Link></li>
+    <li className='text-4xl py-6'><Link onClick={handlenav} smooth={true} duration={500} to="skills">Skills</Link></li>
+    <li className='text-4xl py-6'><Link onClick={handlenav} smooth={true} duration={500} to="work">Work</Link></li>
+    <li className='text-4xl py-6'><Link onClick={handlenav} smooth={true} duration={500} to="contact">Contact</Link></li>
 </ul>
 {/* social Icons */}
 <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
