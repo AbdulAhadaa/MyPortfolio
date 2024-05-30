@@ -27,7 +27,7 @@ const Home = () => {
           </button>
         </div>
         </Link>
-        <a href="https://blue-pierette-29.tiiny.site" target='_blank'>
+        <a href="https://jade-joletta-35.tiiny.site/" target='_blank'>
         <button className='sm:mx-4 mt-2 px-2  w-[159px] h-[52px]    border-white border-2 hover:bg-[#565f69] hover:border-[#565f69]'>
       <a href="https://jade-joletta-35.tiiny.site/" target='_blank' className='flex justify-between items-center  text-white'>
  Resume  <BsFillPersonLinesFill size={30}/>
