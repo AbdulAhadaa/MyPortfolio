@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../images/resume.jpg"
+import resume from "../images/resume2.jpg"
 const Resume = () => {
   return (
     <div name='resume' className='"bg-black w-full text-gray-200 '>
