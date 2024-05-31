@@ -24,13 +24,13 @@ return (
     <div width="200px" key={index} style={{backgroundImage:`url(${item.image})`}} className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div">
     {/* hover effects */}
-<div className=" bg-gray-300  text-gray-700   border rounded-md w-[70%]">
+<div className=" bg-gray-300  text-gray-700  opacity-60 border rounded-md w-full">
     <div className="flex flex-col text-black">
-<span className="text-2xl font-bold tracking-wider  text-gray-700">
+<span className=" font-bold tracking-wider  text-gray-700 text-2xl">
         {item.name}
 </span>
-<span>{item.desc}</span>
-<span>{item.stack}</span>
+<span className="text-2xl font-bold">{item.desc}</span>
+<span className="text-2xl font-bold" >{item.stack}</span>
 </div>
 <div className="pt-8 text-center">
     <a href={item.live} target="_blank">
