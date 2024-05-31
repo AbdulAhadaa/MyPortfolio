@@ -24,9 +24,9 @@ return (
     <div width="200px" key={index} style={{backgroundImage:`url(${item.image})`}} className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div">
     {/* hover effects */}
-<div className="opacity-0 group-hover:opacity-100 ">
-    <div className="flex flex-col">
-<span className="text-2xl font-bold text-white tracking-wider">
+<div className=" bg-gray-300  text-gray-700   border rounded-md w-[70%]">
+    <div className="flex flex-col text-black">
+<span className="text-2xl font-bold tracking-wider  text-gray-700">
         {item.name}
 </span>
 <span>{item.desc}</span>
@@ -34,12 +34,12 @@ return (
 </div>
 <div className="pt-8 text-center">
     <a href={item.live} target="_blank">
-        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 fond-bold text-lg">
+        <button className="text-center rounded-lg px-4 py-3 m-2 bg-black text-white fond-bold text-lg">
             Demo
         </button>
     </a>
     <a href={item.github} target="_blank">
-        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 fond-bold text-lg">
+        <button className="text-center rounded-lg px-4 py-3 m-2 bg-black text-white fond-bold text-lg">
             Code
         </button>
     </a>

@@ -27,13 +27,25 @@ const Home = () => {
           </button>
         </div>
         </Link>
-        <a href="https://jade-joletta-35.tiiny.site/" target='_blank'>
-        <button className='sm:mx-4 mt-2 px-2  w-[159px] h-[52px]    border-white border-2 hover:bg-[#565f69] hover:border-[#565f69]'>
-      <a href="https://jade-joletta-35.tiiny.site/" target='_blank' className='flex justify-between items-center  text-white'>
+        <Link to='resume'>
+<div>
+          <button className='sm:mx-4 text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+           
+           Resume 
+            <span className='group-hover:rotate-90 duration-300'>
+              <HiArrowNarrowRight className='ml-3 ' />
+            </span>
+          </button>
+        </div>
+        </Link>
+        {/* <Link to='resume'>
+        <button className=' mt-2 px-2  w-[159px] h-[52px]    border-white border-2 hover:bg-[#565f69] hover:border-[#565f69]'>
+      <a href="" target='_blank' className='flex justify-between items-center  text-white'>
  Resume  <BsFillPersonLinesFill size={30}/>
       </a>
     </button>
-        </a>
+    </Link> */}
+   
         
 </div>
 
