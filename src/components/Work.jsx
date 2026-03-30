@@ -52,16 +52,20 @@ const Work = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
-                  <a href={item.live} target="_blank" rel="noopener noreferrer" className="flex-1">
-                    <button className="w-full px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white font-bold text-sm rounded-lg transition-colors duration-200">
-                      Live Demo
-                    </button>
-                  </a>
-                  <a href={item.github} target="_blank" rel="noopener noreferrer" className="flex-1">
-                    <button className="w-full px-4 py-2 border-2 border-pink-600 hover:bg-pink-600 text-white font-bold text-sm rounded-lg transition-colors duration-200">
-                      Code
-                    </button>
-                  </a>
+                  {item.name === "Iboga Retreat Platform" && (
+                    <>
+                      <a href={item.live} target="_blank" rel="noopener noreferrer" className="flex-1">
+                        <button className="w-full px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white font-bold text-sm rounded-lg transition-colors duration-200">
+                          Live Demo
+                        </button>
+                      </a>
+                      <a href={item.github} target="_blank" rel="noopener noreferrer" className="flex-1">
+                        <button className="w-full px-4 py-2 border-2 border-pink-600 hover:bg-pink-600 text-white font-bold text-sm rounded-lg transition-colors duration-200">
+                          Code
+                        </button>
+                      </a>
+                    </>
+                  )}
                 </div>
               </div>
 
