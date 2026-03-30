@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
 import logo from "../images/logo2.avif"
 import { Link } from 'react-scroll'
 
@@ -12,7 +10,7 @@ const Navbar = () => {
 
     <nav className='fixed w-full h-[80px] flex justify-between items-center  bg-black text-gray-300'>
         <div >
-<img src={logo} alt='Logo Image' style={{ width: '100px' ,height:'80px' }}/>
+<img src={logo} alt='Logo' style={{ width: '100px' ,height:'80px' }}/>
         </div>
 {/* menu */}
 
@@ -60,12 +58,12 @@ const Navbar = () => {
 <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
   <ul>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '>
-      <a href="https://www.linkedin.com/in/abdul-ahad8" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+      <a href="https://www.linkedin.com/in/abdul-ahad8" target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text-gray-300'>
  Linkedin<FaLinkedin size={30}/>
       </a>
     </li>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] '>
-      <a href="https://github.com/AbdulAhadaa" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+      <a href="https://github.com/AbdulAhadaa" target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text-gray-300'>
  Github<FaGithub size={30}/>
       </a>
     </li>

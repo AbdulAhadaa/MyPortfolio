@@ -1,5 +1,4 @@
 import React from 'react'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 
@@ -38,15 +37,6 @@ const Home = () => {
               </button>
             </div>
           </Link>
-          {/* <Link to='resume'>
-        <button className=' mt-2 px-2  w-[159px] h-[52px]    border-white border-2 hover:bg-[#565f69] hover:border-[#565f69]'>
-      <a href="" target='_blank' className='flex justify-between items-center  text-white'>
- Resume  <BsFillPersonLinesFill size={30}/>
-      </a>
-    </button>
-    </Link> */}
-
-
         </div>
 
       </div>
