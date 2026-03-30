@@ -58,7 +58,7 @@ const Skills = () => {
         <img src={mongodb} alt="MongoDB" className='w-20 mx-auto '/>
         <p className='my-4'>MongoDB</p>
     </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-800 rounded-lg p-4'>
+    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
         <div className='w-20 h-20 mx-auto bg-black border-2 border-white rounded-lg flex items-center justify-center'>
             <span className='text-white font-bold text-sm'>Next</span>
         </div>
