@@ -20,11 +20,11 @@ const About = () => {
               <p>Hi. I'm Abdul Ahad, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              <p>I am a passionate MERN Stack Developer with experience in building 
+              scalable web applications. I specialize in creating full-stack solutions 
+              using MongoDB, Express.js, React.js, and Node.js. Currently pursuing 
+              BS-SE at Virtual University of Pakistan, I focus on clean architecture, 
+              user experience, and high-performance applications that make a difference.</p>  
             </div>
 
     </div>
