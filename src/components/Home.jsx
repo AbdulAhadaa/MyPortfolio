@@ -26,17 +26,6 @@ const Home = () => {
               </button>
             </div>
           </Link>
-          <Link to='resume'>
-            <div>
-              <button className='sm:mx-4 text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-
-                Resume
-                <span className='group-hover:rotate-90 duration-300'>
-                  <HiArrowNarrowRight className='ml-3 ' />
-                </span>
-              </button>
-            </div>
-          </Link>
         </div>
 
       </div>
