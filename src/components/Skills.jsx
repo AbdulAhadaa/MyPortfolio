@@ -8,9 +8,9 @@ import html from "../images/html.png"
 import nodejs from "../images/nodejs.png"
 import express from "../images/express.png"
 import mongodb from "../images/mongodb.png"
-import nextjs from "../images/nextjs.png"
 import typescript from "../images/typescript.png"
 import postgresql from "../images/postgresql.png"
+import LogoLoop from './LogoLoop'
 
 
 
@@ -60,7 +60,9 @@ const Skills = () => {
         <p className='my-4'>MongoDB</p>
     </div>
     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={nextjs} alt="Next.js" className='w-20 mx-auto '/>
+        <div className='w-20 h-20 mx-auto flex items-center justify-center'>
+            <LogoLoop />
+        </div>
         <p className='my-4'>Next.js</p>
     </div>
     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
