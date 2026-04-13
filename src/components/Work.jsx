@@ -16,16 +16,16 @@ const Work = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {data.map((item, index) => (
             <div
               key={index}
-              className="group relative h-80 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
+              className="group relative h-[280px] rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
             >
               {/* Background Image */}
               <div
                 style={{ backgroundImage: `url(${item.image})` }}
-                className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-300"
+                className="absolute inset-0 bg-cover bg-top group-hover:scale-105 transition-transform duration-300"
               />
 
               {/* Dark Overlay */}
