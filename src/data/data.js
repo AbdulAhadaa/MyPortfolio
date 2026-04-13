@@ -7,15 +7,7 @@ import advisorchooser from "../images/AdvisorChooser.png"
 import winners from "../images/winners.png"
 
 export const data = [
-    {
-        id: 1,
-        name: "ACES Awards Report Generation System",
-        desc: "Full-stack system for managing Asia's Corporate Excellence & Sustainability Awards with AI-powered content generation, 38+ award categories, and dynamic PDF creation.",
-        stack: "NestJS, React, TypeScript, OpenAI GPT-4",
-        image: winners,
-        github: "#",
-        live: "https://acesawards.com",
-    },
+    
     {
         id: 2,
         name: "Iboga Retreat Platform",
@@ -24,6 +16,15 @@ export const data = [
         image: sparklecart,
         github: "#",
         live: "https://iboga.co",
+    },
+    {
+        id: 1,
+        name: "ACES Awards Report Generation System",
+        desc: "Full-stack system for managing Asia's Corporate Excellence & Sustainability Awards with AI-powered content generation, 38+ award categories, and dynamic PDF creation.",
+        stack: "NestJS, React, TypeScript, OpenAI GPT-4",
+        image: winners,
+        github: "#",
+        live: "https://acesawards.com",
     },
     {
         id: 3,
