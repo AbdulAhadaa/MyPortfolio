@@ -1,6 +1,6 @@
 
 import sparklecart from "../images/image.png"
-import portfolio from "../images/Beer.png"
+import beer from "../images/beer.png"
 import insaig from "../images/insaig.png"
 import cimamplify from "../images/CimAmplify.png"
 import advisorchooser from "../images/AdvisorChooser.png"
@@ -30,7 +30,7 @@ export const data = [
         name: "Beer Connoisseur Magazine",
         desc: "Digital platform for Beer & Cider Magazine with multi-role user management.",
         stack: "React, TypeScript, Firebase Auth",
-        image: portfolio,
+        image: beer,
         github: "#",
         live: "#",
     },
