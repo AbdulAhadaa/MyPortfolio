@@ -31,6 +31,11 @@ const Navbar = () => {
       </Link>
     </li>
     <li className='md:px-3'>
+      <Link to='experience' smooth={true} duration={500}>
+      Experience
+      </Link>
+    </li>
+    <li className='md:px-3'>
       <Link to='work' smooth={true} duration={500}>
       Work
       </Link>
