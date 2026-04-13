@@ -24,7 +24,7 @@ export const data = [
         stack: "NestJS, React, TypeScript, OpenAI GPT-4",
         image: winners,
         github: "#",
-        live: "https://acesawards.com",
+        live: "https://winner-trophy-frontend.vercel.app/",
     },
     {
         id: 3,

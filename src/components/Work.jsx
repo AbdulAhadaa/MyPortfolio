@@ -52,7 +52,7 @@ const Work = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
-                  {item.name === "Iboga Retreat Platform" && (
+                  {item.live && item.live !== "#" && (
                     <a href={item.live} target="_blank" rel="noopener noreferrer" className="flex-1">
                       <button className="w-full px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white font-bold text-sm rounded-lg transition-colors duration-200">
                         Live Demo
