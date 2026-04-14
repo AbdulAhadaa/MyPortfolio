@@ -1,8 +1,8 @@
 import iboga from "../images/iboga.png"
 import beer from "../images/beer.png"
 import insaig from "../images/insaig.png"
-import cimamplify from "../images/CimAmplify.png"
-import advisorchooser from "../images/AdvisorChooser.png"
+import cimamplify from "../images/cimamplify.png"
+import advisorchooser from "../images/advisorchooser.png"
 import winners from "../images/winners.png"
 
 export const data = [
