@@ -4,17 +4,6 @@ import { BsArrowRightCircle } from 'react-icons/bs'
 
 const experiences = [
   {
-    role: "MERN Stack Developer",
-    company: "Mercury Sols",
-    period: "May 2025 – Present",
-    type: "Full-Time",
-    points: [
-      "Developed and maintained full-stack web applications using the MERN stack, ensuring high performance and code quality.",
-      "Designed and built RESTful APIs integrated with dynamic frontend interfaces.",
-      "Optimized application performance and responsiveness, improving load times and user experience.",
-    ],
-  },
-  {
     role: "Software Developer",
     company: "Hello Future Technologies, Lahore",
     period: "Jan 2025 – Feb 2026",
@@ -23,6 +12,17 @@ const experiences = [
       "Engineered frontend and backend features for production-level applications serving real users.",
       "Developed reusable, accessible, and responsive UI components aligned with design systems.",
       "Collaborated with senior developers in an Agile environment, contributing to sprint planning and code reviews.",
+    ],
+  },
+  {
+    role: "MERN Stack Developer",
+    company: "Mercury Sols",
+    period: "May 2025 – Present",
+    type: "Full-Time",
+    points: [
+      "Developed and maintained full-stack web applications using the MERN stack, ensuring high performance and code quality.",
+      "Designed and built RESTful APIs integrated with dynamic frontend interfaces.",
+      "Optimized application performance and responsiveness, improving load times and user experience.",
     ],
   },
 ]
@@ -39,7 +39,12 @@ const Experience = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-100 pb-2">
             Experience
           </p>
-          <p className="py-6 text-gray-400">Where I've worked and what I've built</p>
+          <div className="flex items-center gap-4 mt-6">
+            <p className="text-gray-400">Where I've worked and what I've built</p>
+            <span className="px-3 py-1 bg-pink-600/20 border border-pink-500/40 rounded-full text-pink-300 text-sm font-semibold whitespace-nowrap">
+              1.5+ Years Experience
+            </span>
+          </div>
         </div>
 
         <div className="flex flex-col md:flex-row gap-8">
