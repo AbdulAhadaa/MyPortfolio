@@ -10,70 +10,52 @@ import express from "../images/express.png"
 import mongodb from "../images/mongodb.png"
 import typescript from "../images/typescript.png"
 import postgresql from "../images/postgresql.png"
+import nextjs from "../images/nextjs.png"
+import python from "../images/python.svg"
+import nestjs from "../images/nestjs.svg"
+import fastapi from "../images/fastapi.svg"
+import openai from "../images/openai.svg"
+import docker from "../images/docker.svg"
+import firebase from "../images/firebase.svg"
 
-
+const skills = [
+  { name: "React JS", src: react },
+  { name: "Next.js", src: nextjs, light: true },
+  { name: "TypeScript", src: typescript },
+  { name: "Javascript", src: javascript },
+  { name: "HTML", src: html },
+  { name: "CSS", src: css },
+  { name: "Tailwind CSS", src: tailwind },
+  { name: "Node.js", src: nodejs },
+  { name: "Express.js", src: express },
+  { name: "NestJS", src: nestjs },
+  { name: "Python", src: python },
+  { name: "FastAPI", src: fastapi },
+  { name: "MongoDB", src: mongodb },
+  { name: "PostgreSQL", src: postgresql },
+  { name: "OpenAI / LLMs", src: openai },
+  { name: "Docker", src: docker },
+  { name: "Firebase", src: firebase },
+  { name: "Github", src: github },
+]
 
 const Skills = () => {
   return (
-    <div className='bg-black h-screen w-full text-gray-300' name="skills">
-<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-<div>
-    <p  className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
-    <p className='py-4'>These are the technologies I've worked with</p>
-</div>
-<div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-6 '>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={react} alt="React" className='w-20 mx-auto '/>
-        <p className='my-4'>React JS</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={javascript} alt="JavaScript" className='w-20 mx-auto '/>
-        <p className='my-4'>Javascript</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={tailwind} alt="Tailwind CSS" className='w-20 mx-auto '/>
-        <p className='my-4'>Tailwind CSS</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={css} alt="CSS" className='w-20 mx-auto '/>
-        <p className='my-4'>CSS</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={html} alt="HTML" className='w-20 mx-auto '/>
-        <p className='my-4'>HTML</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={github} alt="GitHub" className='w-20 mx-auto '/>
-        <p className='my-4'>Github</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={nodejs} alt="Node.js" className='w-20 mx-auto '/>
-        <p className='my-4'>Node.js</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={express} alt="Express.js" className='w-20 mx-auto '/>
-        <p className='my-4'>Express.js</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={mongodb} alt="MongoDB" className='w-20 mx-auto '/>
-        <p className='my-4'>MongoDB</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <div className='w-20 h-20 mx-auto bg-black border-2 border-white rounded-lg flex items-center justify-center'>
-            <span className='text-white font-bold text-sm'>Next</span>
+    <div className='bg-black min-h-screen w-full text-gray-300' name="skills">
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div>
+          <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
+          <p className='py-4'>These are the technologies I've worked with</p>
         </div>
-        <p className='my-4'>Next.js</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={typescript} alt="TypeScript" className='w-20 mx-auto '/>
-        <p className='my-4'>TypeScript</p>
-    </div>
-    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-        <img src={postgresql} alt="PostgreSQL" className='w-20 mx-auto '/>
-        <p className='my-4'>PostgreSQL</p>
-    </div>
-</div>
-</div>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-6 '>
+          {skills.map((skill) => (
+            <div key={skill.name} className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
+              <img src={skill.src} alt={skill.name} className={`w-20 h-20 mx-auto object-contain ${skill.light ? 'bg-white rounded-lg p-1' : ''}`} />
+              <p className='my-4'>{skill.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }

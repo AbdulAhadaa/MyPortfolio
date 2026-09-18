@@ -6,13 +6,7 @@ const education = [
     degree: "BS Software Engineering",
     institution: "Virtual University of Pakistan",
     period: "2022 – 2026",
-    icon: "🎓",
-  },
-  {
-    degree: "Intermediate in Computer Science (ICS)",
-    institution: "Superior College",
-    period: "2020 – 2022",
-    icon: "📚",
+    detail: "CGPA: 3.31 / 4.00",
   },
 ]
 
@@ -54,6 +48,9 @@ const Education = () => {
                     </span>
                   </div>
                   <p className="text-gray-400 text-sm">{edu.institution}</p>
+                  {edu.detail && (
+                    <p className="text-pink-300 text-sm mt-2">{edu.detail}</p>
+                  )}
                 </div>
               </div>
             ))}

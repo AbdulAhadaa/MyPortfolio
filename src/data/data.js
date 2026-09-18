@@ -1,65 +1,53 @@
-import iboga from "../images/iboga.png"
-import beer from "../images/beer.png"
-import insaig from "../images/insaig.png"
-import cimamplify from "../images/cimamplify.png"
-import advisorchooser from "../images/advisorchooser.png"
+import talentring from "../images/talentring.png"
+import velgai from "../images/velgai.png"
+import spainbuy from "../images/spainbuy.png"
 import winners from "../images/winners.png"
+import cimamplify from "../images/cimamplify.png"
 
 export const data = [
     {
         id: 1,
-        name: "Iboga Retreat Platform",
-        desc: "Full-stack retreat booking platform connecting users with Iboga ceremony providers worldwide, featuring geolocation-based search and role-specific dashboards.",
-        stack: "React.js, Node.js, Express.js, PostgreSQL",
-        image: iboga,
+        name: "TalentRing — AI-Powered Job Portal",
+        desc: "Job-seeker portal with JWT auth and Stripe Jobs Pro billing. LLMs generate tailored CVs, cover letters, LinkedIn drafts, plus match analysis, skill-gap, and ATS checks from one job click.",
+        stack: "React, Vite, Node/Express, MongoDB, Stripe, OpenRouter",
+        image: talentring,
         github: "#",
-        live: "https://iboga.co",
+        live: "https://talentring.eu/",
     },
     {
         id: 2,
-        name: "ACES Awards Report Generation System",
-        desc: "Full-stack system for managing Asia's Corporate Excellence & Sustainability Awards with AI-powered content generation, 38+ award categories, and dynamic PDF creation.",
-        stack: "NestJS, React, TypeScript, OpenAI GPT-4",
-        image: winners,
+        name: "Velgai — Secure AI Workspace",
+        desc: "Production AI workspace so teams can use ChatGPT-class models without sending raw company data. OpenRouter model picker plus a PII vault with Microsoft Presidio to tokenize names and emails.",
+        stack: "Next.js, Node/Express, OpenRouter, Microsoft Presidio",
+        image: velgai,
         github: "#",
-        live: "https://winner-trophy-frontend.vercel.app/",
+        live: "https://velgai.com",
     },
-    
     {
-        id: 6,
-        name: "INSAIG — AI & Cybersecurity Certifications",
-        desc: "Premium certification platform for AI and Cybersecurity professionals, featuring 6 structured tracks, enterprise team plans, AI-powered adaptive learning, and hands-on labs.",
-        stack: "Next.js, Tailwind CSS",
-        image: insaig,
+        id: 3,
+        name: "SpainBuy E-Commerce Platform",
+        desc: "Responsive Next.js storefront with image-based 1688 product search and admin/user dashboards, backed by an autonomous Python/FastAPI + Playwright scraping microservice.",
+        stack: "Next.js, Express.js, Python/FastAPI, Playwright",
+        image: spainbuy,
         github: "#",
-        live: "https://insaig-zeta.vercel.app/",
+        live: "https://spainbuy.es/",
     },
     {
         id: 4,
-        name: "CIM Amplify Buyer–Seller Platform",
-        desc: "B2B web application connecting buyers and sellers with role-based dashboards for admins, buyers, and sellers, integrated via RESTful APIs.",
-        stack: "Next.js, Nest js , MongoDB",
-        image: cimamplify,
+        name: "ACES Awards Report System",
+        desc: "AI-powered management platform integrating OpenAI GPT-4 to automate content generation across 38+ award categories — cutting manual work by 80%.",
+        stack: "NestJS, React TypeScript, PostgreSQL, OpenAI GPT-4",
+        image: winners,
         github: "#",
-        live: "https://app.cimamplify.com",
+        live: "https://winners-report-generation.vercel.app/",
     },
     {
         id: 5,
-        name: "Advisor Chooser Platform",
-        desc: "Seller-focused advisor selection platform built as an extension of the CIM Amplify ecosystem with full frontend UI and core backend API contributions.",
-        stack: "React.js, Nest JS, Tailwind, Mongodb",
-        image: advisorchooser,
+        name: "CIM Amplify Buyer–Seller Platform",
+        desc: "B2B MERN platform with multi-role dashboards for admins, buyers, and sellers, and full REST API integration.",
+        stack: "Next.js, NestJS, MongoDB",
+        image: cimamplify,
         github: "#",
-        live: "https://app.advisorchooser.com",
-    }
-    ,
-    {
-        id: 6,
-        name: "Beer Connoisseur Magazine",
-        desc: "Digital platform for Beer & Cider Magazine with multi-role user management.",
-        stack: "React, TypeScript, Firebase Auth",
-        image: beer,
-        github: "#",
-        live: "#",
+        live: "https://app.cimamplify.com",
     },
 ]

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 
 const Contact = () => {
@@ -37,6 +37,17 @@ const Contact = () => {
               <p className='text-white text-sm font-medium group-hover:text-pink-400 transition-colors duration-300'>+92 340 7586937</p>
             </div>
           </a>
+
+          {/* Location */}
+          <div className='group flex items-center gap-4 p-5 rounded-xl border border-gray-800 hover:border-pink-600/50 bg-gray-900/50 hover:bg-gray-900 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-pink-600/10 sm:col-span-2'>
+            <div className='w-12 h-12 rounded-full bg-pink-600/20 border border-pink-500/30 flex items-center justify-center shrink-0 group-hover:bg-pink-600/40 transition-colors duration-300'>
+              <FaMapMarkerAlt size={18} className='text-pink-400' />
+            </div>
+            <div>
+              <p className='text-xs text-gray-500 mb-1 uppercase tracking-wider'>Location</p>
+              <p className='text-white text-sm font-medium group-hover:text-pink-400 transition-colors duration-300'>254R, Block, Model Town, Lahore</p>
+            </div>
+          </div>
 
         </div>
 

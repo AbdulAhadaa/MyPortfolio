@@ -44,7 +44,7 @@ const Work = () => {
                 <h3 className="text-lg font-bold text-white mb-1 group-hover:text-pink-400 transition-colors duration-300 line-clamp-1">
                   {item.name}
                 </h3>
-                <p className="text-xs text-gray-300 mb-3 line-clamp-2">{item.desc}</p>
+                <p className="text-xs text-gray-300 mb-3 line-clamp-3">{item.desc}</p>
 
                 {/* Tech pills */}
                 <div className="flex flex-wrap gap-1 mb-4">

@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-black'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-pink-600'>Hi,my name is</p>
+        <p className='text-pink-600'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Abdul Ahad
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>MERN Stack Developer</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          MERN Stack Developer crafting scalable, high-performance web applications with MongoDB, Express.js, Next.js, Next.js React.js, and Node.js, focused on clean architecture and user experience.
+          MERN Stack Developer with 1+ year of experience building web applications and AI-driven automation solutions. I work with React.js, Next.js, Node.js, and TypeScript, and integrate LLMs into production workflows.
         </p>
         <div className='sm:flex '>
           <Link to='work'>

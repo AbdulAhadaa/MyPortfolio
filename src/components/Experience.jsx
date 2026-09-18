@@ -4,25 +4,13 @@ import { BsArrowRightCircle } from 'react-icons/bs'
 
 const experiences = [
   {
-    role: "Software Developer",
-    company: "Hello Future Technologies, Lahore",
-    period: "Jan 2025 – Feb 2026",
-    type: "Part-Time",
-    points: [
-      "Engineered frontend and backend features for production-level applications serving real users.",
-      "Developed reusable, accessible, and responsive UI components aligned with design systems.",
-      "Collaborated with senior developers in an Agile environment, contributing to sprint planning and code reviews.",
-    ],
-  },
-  {
     role: "MERN Stack Developer",
-    company: "Mercury Sols",
-    period: "May 2025 – Present",
+    company: "Hello Future Technologies, Lahore",
+    period: "Jan 2025 – Present",
     type: "Full-Time",
     points: [
-      "Developed and maintained full-stack web applications using the MERN stack, ensuring high performance and code quality.",
-      "Designed and built RESTful APIs integrated with dynamic frontend interfaces.",
-      "Optimized application performance and responsiveness, improving load times and user experience.",
+      "Developed and maintained full-stack web applications using React.js, Next.js, Node.js, and PostgreSQL, writing clean, well-documented, and maintainable code.",
+      "Collaborated with developers and AI engineers to deliver scalable, AI-powered features on schedule.",
     ],
   },
 ]
@@ -42,7 +30,7 @@ const Experience = () => {
           <div className="flex items-center gap-4 mt-6">
             <p className="text-gray-400">Where I've worked and what I've built</p>
             <span className="px-3 py-1 bg-pink-600/20 border border-pink-500/40 rounded-full text-pink-300 text-sm font-semibold whitespace-nowrap">
-              1.5+ Years Experience
+              1+ Years Experience
             </span>
           </div>
         </div>
